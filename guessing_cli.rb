@@ -10,7 +10,7 @@ def run_guessing_game
         break
       elsif input.to_i == random
           puts "You guessed the correct number!"
-        elsif input.to_i != random && (input.to_i.between?(1,6)
+        elsif input.to_i != random && input.to_i.between?(1,6)
           puts "The computer guessed #{random}."
         else
           puts "Invalid input"
